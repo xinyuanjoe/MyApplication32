@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     int size = 30;
     //zhi分支改动
+    //在你头上暴扣
     public void bigger(View view) {
         Button button = (Button)findViewById(R.id.joe);
         button.setTextSize(++size);
